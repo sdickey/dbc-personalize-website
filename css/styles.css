@@ -25,8 +25,8 @@ h2 {
 }
 
 .btn {
-	color: #faf3bc;
-	background: #4fb69f url('img/texture.png') no-repeat right top;
+	color: #999;
+	background: #ccc url('../img/diamond_upholstery.png') repeat;
 	margin: 40px 0;
 	padding: 15px 30px;
 	border-radius: 25px;
@@ -34,7 +34,7 @@ h2 {
 }
 
 .btn:hover {
-	background: #4cc4a7;
+	background: #ccc;
 	}
 
 ul.nav {
