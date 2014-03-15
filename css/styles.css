@@ -1,7 +1,8 @@
 body {
 	font-family: Nunito, sans-serif;
 	color: #faf3bc;
-	background: #420600 url('img/bg-texture.jpg') repeat;
+	background: #222222 
+	/*url('img/bg-texture.jpg') repeat;*/
 }
 
 a {
@@ -52,12 +53,12 @@ ul.nav li a {
 	font-family: rosewood-std;
 }
 
-#new-cupcakes img {
+#quirks img {
 	border: 8px solid #faf3bc;
 	margin: 0 0 20px 0;
 }
 
-#featured-cupcake img {
+#love img {
 	border: 8px solid #faf3bc;
 }
 
