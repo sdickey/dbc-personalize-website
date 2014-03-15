@@ -19,6 +19,11 @@ h2 {
 	color: #b4c34f;
 }
 
+.wrapper {
+	width: 85%;
+	margin: 0 auto;
+}
+
 .btn {
 	color: #faf3bc;
 	background: #4fb69f url('img/texture.png') no-repeat right top;
@@ -35,12 +40,11 @@ h2 {
 ul.nav {
 	margin: 120px 0 0 0;
 	list-style: none;
-	float: right;
 }
 
 ul.nav li {
 	float: left;
-	margin-right: 40px;
+	margin: 0 40px;
 }
 
 ul.nav li a {
@@ -48,17 +52,30 @@ ul.nav li a {
 }
 
 #intro {
-	margin: 50px 0 75px 0;
 	font-family: rosewood-std;
+	float: left;
+	clear: both;
 }
 
 #quirks img {
-	border: 8px solid #faf3bc;
-	margin: 0 0 20px 0;
+	border: 3px solid #faf3bc;
+}
+
+#love {
+	clear: both;
 }
 
 #love img {
-	border: 8px solid #faf3bc;
+	border: 3px solid #faf3bc;
+
+}
+
+.then-now {
+	clear: both;
+}
+
+#contact {
+	float: right;
 }
 
 #copyright {
@@ -66,4 +83,9 @@ ul.nav li a {
 	padding: 10px 0;
 	margin: 50px 0;
 	text-align: center;
+}
+
+img {
+	max-width: 100%;
+	clear: both;
 }
