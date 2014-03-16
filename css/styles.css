@@ -6,7 +6,7 @@ body {
 
 header {
 	float: left;
-	/*background: #ccc;*/
+	background: #ccc;
 }
 
 a {
@@ -58,12 +58,20 @@ ul.nav li a {
 
 #intro {
 	float: right;
-	/*background: #ccc;*/
+	background: #ccc;
 	/*clear: both;*/
 }
 
 #quirks img {
 	border: 3px solid #000;
+}
+
+#quirks .social-contact {
+	display: block;
+	margin-right: 20px;
+	border: none;
+	float: left;
+	clear: none;
 }
 
 #love {
@@ -72,7 +80,10 @@ ul.nav li a {
 
 #love img {
 	border: 3px solid #000;
+}
 
+#love .no-border {
+	border: none;
 }
 
 .then-now {
@@ -80,7 +91,7 @@ ul.nav li a {
 }
 
 #contact {
-	float: right;
+	/*float: right;*/
 }
 
 #copyright {
@@ -88,6 +99,14 @@ ul.nav li a {
 	padding: 10px 0;
 	margin: 50px 0;
 	text-align: center;
+}
+
+.close-margin {
+	margin-right: -1px;
+}
+
+.no-border {
+	border: none;
 }
 
 img {
