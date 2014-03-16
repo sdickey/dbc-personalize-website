@@ -1,11 +1,16 @@
 body {
-	font-family: Courier, serif;
-	color: #faf3bc;
-	background: #222222 url('../img/black_thread.png') repeat;
+	font-family: inconsolata, sans-serif;
+	color: #999;
+	/*background: #222222 url('../img/diamond_upholstery.png') repeat;*/
+}
+
+header {
+	float: left;
+	/*background: #ccc;*/
 }
 
 a {
-	color: #4fb69f;
+	color: #000;
 	text-decoration: none;
 }
 
@@ -15,7 +20,6 @@ h1 {
 }
 
 h2 {
-	font-family: Helvetica;
 	font-size: 2.5em;
 	color: #ccc;
 }
@@ -49,16 +53,17 @@ ul.nav li {
 }
 
 ul.nav li a {
-	color: #faf3bc;
+	color: #c33027;
 }
 
 #intro {
-	float: left;
-	clear: both;
+	float: right;
+	/*background: #ccc;*/
+	/*clear: both;*/
 }
 
 #quirks img {
-	border: 3px solid #faf3bc;
+	border: 3px solid #000;
 }
 
 #love {
@@ -66,7 +71,7 @@ ul.nav li a {
 }
 
 #love img {
-	border: 3px solid #faf3bc;
+	border: 3px solid #000;
 
 }
 
